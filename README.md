@@ -74,6 +74,13 @@ git pull
 ./install.sh -r
 ```
 
+### Full Hyde Installation
+To install Hyde just type Hyde-install in the terminal.
+
+```shell
+Hyde-install
+```
+
 > [!IMPORTANT]
 > Please note that any configurations you made will be overwritten if listed to be done so as listed by `Scripts/restore_cfg.lst`.
 > However, all replaced configs are backed up and may be recovered from in `~/.config/cfg_backups`.
