@@ -13,9 +13,9 @@ io.gitlab.adhami3310.Impression                # Impression
 
 # ------------------------------------------- // Social
 # org.signal.Signal                            # Signal
-com.discordapp.Discord                       # Discord
-dev.vencord.Vesktop                          # Vesktop
-io.github.spacingbat3.webcord                  # Webcord
+# com.discordapp.Discord                       # Discord
+# dev.vencord.Vesktop                          # Vesktop
+# io.github.spacingbat3.webcord                  # Webcord
 
 # ------------------------------------------- // Productivity
 # md.obsidian.Obsidian                         # Obsidian
@@ -36,7 +36,7 @@ io.gitlab.theevilskeleton.Upscaler             # ImageUpscaler
 org.gnome.eog                                  # ImageViewer
 
 # ------------------------------------------- // Audio/Video
-com.spotify.Client                           # Spotify
+# com.spotify.Client                           # Spotify
 # org.kde.kdenlive                             # Kdenlive
 com.obsproject.Studio                          # Obs
 com.github.rafostar.Clapper                    # Clapper
