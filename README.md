@@ -90,7 +90,7 @@ For more details, you can refer to [Hyde-cli - dots management wiki](https://git
 
 <div align="right">
   <br>
-  <a href="#-design-by-t2"><kbd> <br> 🡅 <br> </kbd></a>
+  <a href="#-design-by-t2"><kbd> <br> ↑ <br> </kbd></a>
 </div>
 
 ## Themes
@@ -124,7 +124,7 @@ For more information, visit [prasanthrangan/hyde-themes](https://github.com/pras
 
 <div align="right">
   <br>
-  <a href="#-design-by-t2"><kbd> <br> 🡅 <br> </kbd></a>
+  <a href="#-design-by-t2"><kbd> <br> ↑ <br> </kbd></a>
 </div>
 
 ## Styles
@@ -170,7 +170,7 @@ For more information, visit [prasanthrangan/hyde-themes](https://github.com/pras
 
 <div align="right">
   <br>
-  <a href="#-design-by-t2"><kbd> <br> 🡅 <br> </kbd></a>
+  <a href="#-design-by-t2"><kbd> <br> ↑ <br> </kbd></a>
 </div>
 
 ## Keybindings
@@ -235,6 +235,6 @@ For more information, visit [prasanthrangan/hyde-themes](https://github.com/pras
 
 <div align="right">
   <br>
-  <a href="#-design-by-t2"><kbd> <br> 🡅 <br> </kbd></a>
+  <a href="#-design-by-t2"><kbd> <br> ↑ <br> </kbd></a>
 </div>
 
