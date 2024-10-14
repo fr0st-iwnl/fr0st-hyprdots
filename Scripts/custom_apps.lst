@@ -6,6 +6,7 @@
 
 # --------------------------------------------------- // Dependencies
 xdg-desktop-portal-gtk                                 # xdg desktop portal using gtk
+xremap-x11-bin                                         # key remapper for X11 and Wayland 
 # emote                                                # emoji picker gtk3
 
 # --------------------------------------------------- // Gaming
