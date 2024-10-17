@@ -1,3 +1,4 @@
+/*
 ${cacheDir}/landing/discord.css|${scrDir}/wallbashdiscord.sh
 
 :root {
@@ -14,7 +15,7 @@ ${cacheDir}/landing/discord.css|${scrDir}/wallbashdiscord.sh
 	--text-positive: #<wallbash_3xa9> !important;
 	--text-muted: #<wallbash_txt1>66 !important;
 	--text-link: #<wallbash_pry4> !important;
-  --channel-default: #<wallbash_txt1>99 !important;
+  	--channel-default: #<wallbash_txt1>99 !important;
 	--button-background: #<wallbash_pry1> !important;
 	--button-background-hover: #<wallbash_pry1> !important;
 	--button-background-active: #<wallbash_pry1> !important;
@@ -40,7 +41,7 @@ ${cacheDir}/landing/discord.css|${scrDir}/wallbashdiscord.sh
 	--interactive-selected: var(--background-primary);
 	--interactive-active: var(--text-positive);
 	--interactive-normal: var(--text-normal);
-  --interactive-muted: var(--text-muted);
+  	--interactive-muted: var(--text-muted);
 	--channels-default: var(--channel-default);
 	--header-primary: var(--text-normal);
 	--header-secondary: var(--text-muted);
@@ -72,3 +73,7 @@ ${cacheDir}/landing/discord.css|${scrDir}/wallbashdiscord.sh
 	--background-mentioned: var(--accent-color);
 	--background-mentioned-hover: var(--scrollbar-auto-thumb);	
 }
+*/
+
+
+// Remove the comments if you want Discord to be themed with your desktop theme.
