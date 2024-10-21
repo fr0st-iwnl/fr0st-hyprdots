@@ -39,8 +39,8 @@ tooltip {
     background: @wb-act-bg;
     color: @wb-act-fg;
     margin-${x3}: ${w_margin}px;
-    padding-${x3}: ${w_padact}px;
-    padding-${x4}: ${w_padact}px;
+    padding-left: 15px;
+    padding-right: 15px;
     margin-${x4}: ${w_margin}px;
     animation: ws_active 20s ease-in-out 1;
     transition: all 0.4s cubic-bezier(.55,-0.68,.48,1.682);
