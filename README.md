@@ -193,6 +193,9 @@ For more information, visit [prasanthrangan/hyde-themes](https://github.com/pras
 | <kbd>Super</kbd> + <kbd>E</kbd> | Launch file manager (dolphin) |
 | <kbd>Super</kbd> + <kbd>C</kbd> | Launch text editor (vscode) |
 | <kbd>Super</kbd> + <kbd>F</kbd> | Launch web browser (firefox) |
+| <kbd>Super</kbd> + <kbd>B</kbd> | Launch Spotify |
+| <kbd>Super</kbd> + <kbd>N</kbd> | Launch emoji search menu |
+| <kbd>Super</kbd> + <kbd>M</kbd> | Run the xremap shell script to remap keybinds (find the key config in ~/.config/xremap/config.yml if you want to change the hotkey remapping). |
 | <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>Esc</kbd> | Launch system monitor (htop/btop or fallback to top) |
 | <kbd>Super</kbd> + <kbd>A</kbd> | Launch application launcher (rofi) |
 | <kbd>Super</kbd> + <kbd>Tab</kbd> | Launch window switcher (rofi) |
