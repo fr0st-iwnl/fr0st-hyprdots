@@ -50,6 +50,7 @@ kde-cli-tools                                          # for dolphin file type d
 libnotify                                              # for notifications
 
 # --------------------------------------------------- // Theming
+noto-fonts-emoji                                       # emojis
 nwg-look                                               # gtk configuration tool
 qt5ct                                                  # qt5 configuration tool
 qt6ct                                                  # qt6 configuration tool
