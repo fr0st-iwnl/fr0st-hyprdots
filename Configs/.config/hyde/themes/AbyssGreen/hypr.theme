@@ -25,12 +25,6 @@ group {
 
 decoration {
     rounding = 12
-    drop_shadow = true
-    shadow_ignore_window = true
-    shadow_offset = 6 6
-    shadow_range = 3
-    shadow_render_power = 4
-    col.shadow = 0xff26233a
 
     blur {
         enabled = yes
@@ -39,6 +33,9 @@ decoration {
         new_optimizations = on
         ignore_opacity = on
         xray = false
+    }
+        shadow {
+        enabled = false
     }
 }
 

@@ -27,8 +27,6 @@ group {
 
 decoration {
     rounding = 10
-    drop_shadow = false
-    drop_shadow = no
 
     blur {
         enabled = yes
@@ -39,6 +37,9 @@ decoration {
         xray = false
         # contrast = 0.8916
         brightness = 1.7172
+    }
+        shadow {
+        enabled = false
     }
 }
 

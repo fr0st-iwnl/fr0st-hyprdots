@@ -33,7 +33,6 @@ group {
 
 decoration {
     rounding = 3
-    drop_shadow = false
 
     blur {
         enabled = yes
@@ -42,6 +41,9 @@ decoration {
         new_optimizations = on
         ignore_opacity = on
         xray = false
+    }
+        shadow {
+        enabled = false
     }
 }
 

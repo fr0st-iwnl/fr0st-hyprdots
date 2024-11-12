@@ -1,45 +1,53 @@
 $HOME/.config/hypr/themes/theme.conf|> $HOME/.config/hypr/themes/colors.conf
-exec = gsettings set org.gnome.desktop.interface icon-theme 'Tela-circle-grey'
-exec = gsettings set org.gnome.desktop.interface gtk-theme 'Graphite-Mono'
-exec = gsettings set org.gnome.desktop.interface color-scheme 'prefer-dark'
+#  P̳r̳a̳s̳a̳n̳t̳h̳ R̳a̳n̳g̳a̳n̳
+
+$GTK_THEME = Graphite-Mono
+$ICON_THEME = Tela-circle-grey
+$COLOR_SCHEME = prefer-dark
+
+# Optional: The varibles above will be set automatically when the theme is loaded
+# This exec commands will soon be deprecated
+
+exec = gsettings set org.gnome.desktop.interface icon-theme $ICON_THEME
+exec = gsettings set org.gnome.desktop.interface gtk-theme $GTK_THEME
+exec = gsettings set org.gnome.desktop.interface color-scheme $COLOR_SCHEME
 
 general {
     gaps_in = 8
     gaps_out = 14
     border_size = 3
-    col.active_border = rgba(d9d9d9ff) rgba(f2f2f2cc) 45deg   # Active border: Light gray gradient
-    col.inactive_border = rgba(404040cc) rgba(262626cc) 45deg # Inactive border: Dark gray gradient
+    col.active_border = rgba(d9d9d9ff) rgba(a6a6a6ff) 45deg
+    col.inactive_border = rgba(404040cc) rgba(262626cc) 45deg
     layout = dwindle
     resize_on_border = true
 }
 
 group {
-    col.border_active = rgba(d9d9d9ff) rgba(f2f2f2cc) 45deg   # Active group border: Light gray gradient
-    col.border_inactive = rgba(404040cc) rgba(262626cc) 45deg # Inactive group border: Dark gray gradient
-    col.border_locked_active = rgba(d9d9d9ff) rgba(f2f2f2cc) 45deg # Locked active border: Same as active
-    col.border_locked_inactive = rgba(404040cc) rgba(262626cc) 45deg # Locked inactive border: Same as inactive
+    col.border_active = rgba(d9d9d9ff) rgba(a6a6a6ff) 45deg
+    col.border_inactive = rgba(404040cc) rgba(262626cc) 45deg
+    col.border_locked_active = rgba(d9d9d9ff) rgba(a6a6a6ff) 45deg
+    col.border_locked_inactive = rgba(404040cc) rgba(262626cc) 45deg
 }
 
-
 decoration {
-    rounding = 0                           # Softer, more pronounced rounded corners
-    drop_shadow = true                      # Keep drop shadow enabled for depth
-    shadow_ignore_window = true             # Ignore shadow for specific windows
-    shadow_offset = 4 4                     # Slightly larger offset for a more diffused shadow
-    shadow_range = 15                       # Increased range for a softer transition
-    shadow_render_power = 2                 # Moderate shadow rendering power for a smooth look
-    col.shadow = rgba(0, 0, 0, 0.6)         # Deep black shadow for pronounced effect
+    rounding = 0
 
+    shadow {
+        enabled = yes
+        offset = 4 4
+        range = 0
+        render_power = 4
+        ignore_window = yes
+        color = 0xffFFFFFF
+    }
     blur {
-        enabled = yes                       # Enable blur for a modern touch
-        size = 10                           # Increased blur size for smoother backgrounds
-        passes = 3                          # More passes for enhanced blurriness
-        new_optimizations = on              # Keep optimizations on for performance
-        ignore_opacity = on                 # Ignore window opacity in blur for a consistent look
-        xray = false                        # Disable x-ray effect for better visibility
-    }                                       # Closing brace for blur
-}                                           # Closing brace for decoration
-
-
+        enabled = yes
+        size = 6
+        passes = 3
+        new_optimizations = on
+        ignore_opacity = on
+        xray = false
+    }
+}
 
 layerrule = unset,waybar

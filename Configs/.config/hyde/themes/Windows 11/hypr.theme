@@ -42,16 +42,14 @@ decoration {
     	xray = false
     }
     
-    # Shadow
-    drop_shadow = yes
-    shadow_range = 30
-    shadow_render_power = 3
-    col.shadow = rgba(01010144)
-    
     # Dim
     dim_inactive = false
     dim_strength = 0.1
     dim_special = 0
+
+        shadow {
+        enabled = true
+    }
 }
 
 
