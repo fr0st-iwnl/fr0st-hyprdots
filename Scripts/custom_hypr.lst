@@ -63,6 +63,7 @@ qt6-wayland                                            # wayland support in qt6
 firefox                                                # browser
 kitty                                                  # terminal
 dolphin                                                # kde file manager
+thunar                                                 # xfce file manager
 ark                                                    # kde file archiver
 file-roller                                            # gnome file archiver
 vim                                                    # terminal text editor
