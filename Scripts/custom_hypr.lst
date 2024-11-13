@@ -67,6 +67,7 @@ ark                                                    # kde file archiver
 file-roller                                            # gnome file archiver
 vim                                                    # terminal text editor
 vscodium-bin                                           # ide text editor
+font-manager                                           # font-viewer
 
 # --------------------------------------------------- // Shell
 eza|zsh                                                # file lister for zsh
