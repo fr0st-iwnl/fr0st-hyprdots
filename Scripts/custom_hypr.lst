@@ -64,7 +64,7 @@ firefox                                                # browser
 kitty                                                  # terminal
 dolphin                                                # kde file manager
 ark                                                    # kde file archiver
-file-roller                                                    # gnome file archiver
+file-roller                                            # gnome file archiver
 vim                                                    # terminal text editor
 vscodium-bin                                           # ide text editor
 
