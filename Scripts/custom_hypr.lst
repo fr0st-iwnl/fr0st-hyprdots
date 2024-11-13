@@ -80,6 +80,7 @@ starship|fish                                          # customizable shell prom
 fastfetch                                              # system information fetch tool
 pokemon-colorscripts-git|zsh                           # display pokemon sprites
 downgrade                                              # downgrade packages
+cava                                                   # audio visualizer 
 
 # --------------------------------------------------- // HyDE
 hyde-cli-git                                           # cli tool to manage hyde
