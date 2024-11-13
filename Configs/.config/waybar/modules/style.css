@@ -3,7 +3,7 @@
     border-radius: 0px;
     font-family: "JetBrainsMono Nerd Font";
     font-weight: bold;
-    font-size: 15px;
+    font-size: ${s_fontpx}px;
     min-height: 10px;
 }
 
@@ -39,8 +39,8 @@ tooltip {
     background: @wb-act-bg;
     color: @wb-act-fg;
     margin-${x3}: ${w_margin}px;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-${x3}: ${w_padact}px;
+    padding-${x4}: ${w_padact}px;
     margin-${x4}: ${w_margin}px;
     animation: ws_active 20s ease-in-out 1;
     transition: all 0.4s cubic-bezier(.55,-0.68,.48,1.682);
@@ -106,7 +106,7 @@ ${modules_ls}
     opacity: 1;
     margin: ${x1g_margin}px ${x2g_margin}px ${x3g_margin}px ${x4g_margin}px;
     padding-${x3}: ${g_paddin}px;
-    padding-right: 8px;
+    padding-${x4}: ${g_paddin}px;
 }
 
 #workspaces,
