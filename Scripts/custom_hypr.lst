@@ -66,6 +66,7 @@ dolphin                                                # kde file manager
 ark                                                    # kde file archiver
 file-roller                                            # gnome file archiver
 vim                                                    # terminal text editor
+neovim                                                 # second terminal text editor 
 vscodium-bin                                           # ide text editor
 font-manager                                           # font-viewer
 
