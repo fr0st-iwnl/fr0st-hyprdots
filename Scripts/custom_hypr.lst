@@ -69,6 +69,7 @@ vim                                                    # terminal text editor
 neovim                                                 # second terminal text editor 
 vscodium-bin                                           # ide text editor
 font-manager                                           # font-viewer
+spotify                                                # music
 
 # --------------------------------------------------- // Shell
 eza|zsh                                                # file lister for zsh
